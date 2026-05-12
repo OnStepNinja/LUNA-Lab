@@ -1,7 +1,7 @@
 # LUNA-Lab
 Electronics/Maker Bridge
 
-# LUNA — AI-Driven Telescope & Observatory Controller
+
 
 **MCP Server + Lua Scripting Engine on ESP32**
 
