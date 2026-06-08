@@ -1,5 +1,5 @@
 # LUNA-Lab
-Electronics/Maker Bridge
+A lightweight Physical AI platform based on ESP32 & Lua that connects LLMs to sensors, actuators, and test instruments for smart hardware hacking.
 
 
 
