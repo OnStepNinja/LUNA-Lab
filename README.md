@@ -46,11 +46,6 @@ LUNA runs **Lua scripts autonomously** on the ESP32. Claude writes the scripts, 
 
 ---
 
-
-📚 **[LUNA Docs on NotebookLM](https://notebooklm.google.com/notebook/f2ce997f-18c2-44c4-8738-973b204c190c)** — Ask questions about LUNA directly.
-
----
-
 ## License
 
 The LUNA firmware binary is distributed under the [MIT License](LICENSE).
