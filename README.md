@@ -97,7 +97,7 @@ If you can describe it, LUNA Lab Edition can build it.
 | Model | Chip | Highlights |
 |---|---|---|
 | **Lab32** | ESP32 | The essentials: GPIO / ADC / DAC / WiFi / UART / Lua — the standard starting point |
-| **LabS3** | ESP32-S3 | Full-featured: adds BLE5, extended advertising, USB HID, and more |
+| **LabS3** | ESP32-S3 | Full-featured: adds BLE5 and more on top of the Lab32 essentials |
 | **LabNode** | ESP32-S3 | A lightweight BLE-only companion node for multi-device setups (MicroPython edition planned) |
 
 All three speak the same MCP protocol and the same Lua scripting model — pick the chip that fits your project, not a different way of working.
