@@ -111,10 +111,12 @@ LUNA Lab Edition firmware is distributed as **ready-to-flash binaries** — no b
 1. Download the latest release for your board (Lab32 / LabS3 / LabNode) from the [Releases](../../releases) page
 2. Flash it with your preferred tool (e.g. `esptool`)
 3. Connect to the device's WiFi access point and complete first-time setup
-4. Add the device to your MCP client (Claude Desktop / Claude Code) using its address
+4. Add the device to your MCP client:
+   - **Clients with native Streamable HTTP / remote MCP support**: connect directly to `http://<device-ip>/mcp`
+   - **Claude Desktop / stdio-only clients**: use the included `aibridge-connector-v2` proxy (bundled with each release), which bridges stdio to the device's Streamable HTTP endpoint
 5. Start talking to your hardware
 
-Full setup guides are included with each release.
+Full setup guides are included with each release — see [assets/LUNA_Getting_Started.md](assets/LUNA_Getting_Started.md) for a step-by-step walkthrough.
 
 ---
 
