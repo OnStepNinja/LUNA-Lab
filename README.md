@@ -6,7 +6,8 @@
 
 ![Platform](https://img.shields.io/badge/platform-ESP32%20%7C%20ESP32--S3-orange)
 ![Protocol](https://img.shields.io/badge/protocol-MCP-blueviolet)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Firmware license](https://img.shields.io/badge/firmware-MIT-green)
+![LUNA Host Lab](https://img.shields.io/badge/LUNA%20Host%20Lab-Freeware-blue)
 ![Distribution](https://img.shields.io/badge/distribution-binary%20releases-lightgrey)
 
 ---
@@ -120,6 +121,15 @@ Full setup guides are included with each release — see [assets/LUNA_Getting_St
 
 ---
 
+## LUNA Host Lab — build web apps for your board on your PC
+
+Want a real screen for your project — a dashboard, a control panel, a chart? **LUNA Host Lab** is a small Windows program that serves web apps from your PC, lets your AI write and test them (it even looks at a screenshot of its own work), and lets you send them to your board with one button. It also shows your board's storage and files, runs and stops Lua scripts, and — if you allow it — lets the AI look at the board's state and logs while you debug together.
+
+- Download: [hostlab-v0.2.0](../../releases/tag/hostlab-v0.2.0) (Windows, one `.exe`, no install)
+- Free for everyone. It has its own Freeware license (see [License](#license) below).
+
+---
+
 ## Philosophy: AI-Native Firmware
 
 LUNA Lab Edition isn't a library, a framework, or a set of code examples. It's a different answer to the question "how does a human make a microcontroller do something?"
@@ -135,13 +145,20 @@ We think this is the direction all embedded development is headed — and we wan
 
 LUNA Lab Edition is a sibling project to **LUNA Observatory**, our telescope-control edition for astronomy. Lab Edition contains **no astronomy-specific code** — it's a clean, general-purpose platform for electronics and IoT projects of any kind. If you're looking to control a telescope mount, see the LUNA Observatory edition instead.
 
+For a PC program that runs telescope web apps (LX200 / OnStep, ASCOM Alpaca, INDI, N.I.N.A.) and lets an AI build them, see [AiBridge Host](https://github.com/OnStepNinja/AiBridgeHost).
+
 ---
 
 ## License
 
-Firmware binaries are free to use and redistribute. Source code is not publicly distributed. See [LICENSE](LICENSE) for full terms.
+This repository holds two kinds of software with **different licenses**:
 
-"LUNA" and "LUNA Lab Edition" are trademarks of Nishioka Sadahiko.
+| | License | Redistribution |
+|---|---|---|
+| **LUNA Lab Edition firmware** (Lab32 / LabS3 / LabNode binaries) | MIT, binary only — see [LICENSE](LICENSE) | Free to use, copy and redistribute |
+| **LUNA Host Lab** (Windows, `hostlab-*` releases) | LUNA Host Lab Freeware License — the `LICENSE` file inside its zip | Free for everyone, for any project; download it only from the [Releases](../../releases) page; **do not redistribute or sell it** |
+
+Source code is not publicly distributed. "LUNA" and "LUNA Lab Edition" are trademarks of Nishioka Sadahiko.
 
 ## Acknowledgments
 
