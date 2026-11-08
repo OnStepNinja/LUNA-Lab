@@ -121,6 +121,15 @@ Full setup guides are included with each release — see [assets/LUNA_Getting_St
 
 ---
 
+## LUNA Base — install firmware and apps over Wi-Fi
+
+**LUNA Base** is a small store that lives on an ESP32 board (4 MB flash or more). Write it once over USB; after that, choose firmware and apps from **LUNA Store** over Wi-Fi — no build tools, no USB for each update.
+
+- Download: [LUNA Base v0.8.4](https://github.com/OnStepNinja/OnStepNinja-NS4000/releases/tag/LUNA_Base_v0.8.4) (development version, freeware)
+- v0.8.4 fixes losing access to the board's own Wi-Fi after entering a wrong home Wi-Fi setting
+
+---
+
 ## LUNA Host Lab — build web apps for your board on your PC
 
 Want a real screen for your project — a dashboard, a control panel, a chart? **LUNA Host Lab** is a small Windows program that serves web apps from your PC, lets your AI write and test them (it even looks at a screenshot of its own work), and lets you send them to your board with one button. It also shows your board's storage and files, runs and stops Lua scripts, and — if you allow it — lets the AI look at the board's state and logs while you debug together.
